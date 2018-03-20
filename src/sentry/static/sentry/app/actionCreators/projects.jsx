@@ -119,3 +119,7 @@ export function addTeamToProject(api, orgSlug, projectSlug, teamSlug) {
       }
     );
 }
+
+export function changeProjectSlug(prev, next) {
+  ProjectActions.changeSlug(prev, next);
+}
