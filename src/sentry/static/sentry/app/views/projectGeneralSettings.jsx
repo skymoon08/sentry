@@ -340,7 +340,7 @@ const ProjectGeneralSettingsContainer = createReactClass({
 
     if (!project) return;
 
-    browserHistory.push(
+    browserHistory.replace(
       recreateRoute('', {
         ...this.props,
         params: {
