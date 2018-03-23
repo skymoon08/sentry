@@ -62,7 +62,10 @@ exports[`projectAlertRules renders 1`] = `
   border-bottom: 1px solid;
   border-radius: 0 0;
   line-height: 1;
-  padding: 15px 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
@@ -87,7 +90,10 @@ exports[`projectAlertRules renders 1`] = `
   border-bottom: 1px solid;
   border-radius: 0 0;
   line-height: 1;
-  padding: 15px 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
