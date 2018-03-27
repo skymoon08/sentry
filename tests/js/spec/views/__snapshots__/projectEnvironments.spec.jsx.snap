@@ -331,7 +331,7 @@ exports[`ProjectEnvironments render active renders environment list 1`] = `
   flex: 1;
 }
 
-.glamor-26 {
+.glamor-38 {
   background: #fff;
   border: 1px solid;
   margin-bottom: NaNpx;
@@ -371,7 +371,7 @@ exports[`ProjectEnvironments render active renders environment list 1`] = `
   padding: 15px 20px;
 }
 
-.glamor-16 {
+.glamor-22 {
   box-sizing: border-box;
   padding: 16px;
   display: -webkit-box;
@@ -389,8 +389,12 @@ exports[`ProjectEnvironments render active renders environment list 1`] = `
   border-bottom: 1px solid;
 }
 
-.glamor-16:last-child {
+.glamor-22:last-child {
   border: 0;
+}
+
+.glamor-18 {
+  margin-left: 4px;
 }
 
 <ProjectEnvironments
@@ -554,7 +558,7 @@ exports[`ProjectEnvironments render active renders environment list 1`] = `
     <Panel>
       <StyledPanel>
         <div
-          className="glamor-26 glamor-27"
+          className="glamor-38 glamor-39"
         >
           <PanelHeader>
             <StyledPanelHeader>
@@ -603,50 +607,70 @@ exports[`ProjectEnvironments render active renders environment list 1`] = `
                 >
                   <Base
                     align="center"
-                    className="glamor-16 glamor-17"
+                    className="glamor-22 glamor-23"
                     justify="space-between"
                     p={2}
                   >
                     <div
-                      className="glamor-16 glamor-17"
+                      className="glamor-22 glamor-23"
                       is={null}
                     >
-                      <span>
-                        Production
-                         
-                        <code>
-                          production
-                        </code>
-                      </span>
-                      <Button
-                        disabled={false}
-                        onClick={[Function]}
-                        size="xsmall"
+                      <Flex
+                        align="center"
                       >
-                        <button
-                          className="button button-default button-xs"
-                          disabled={false}
-                          onClick={[Function]}
-                          role="button"
+                        <Base
+                          align="center"
+                          className="glamor-2"
                         >
-                          <Flex
-                            align="center"
-                            className="button-label"
+                          <div
+                            className="glamor-2"
+                            is={null}
                           >
-                            <Base
-                              align="center"
-                              className="button-label glamor-2"
+                            Production
+                             
+                            <code>
+                              production
+                            </code>
+                          </div>
+                        </Base>
+                      </Flex>
+                      <div>
+                        <EnvironmentButton
+                          onClick={[Function]}
+                          size="xsmall"
+                        >
+                          <Button
+                            className="glamor-18 glamor-19"
+                            disabled={false}
+                            onClick={[Function]}
+                            size="xsmall"
+                          >
+                            <button
+                              className="glamor-18 glamor-19 button button-default button-xs"
+                              disabled={false}
+                              onClick={[Function]}
+                              role="button"
                             >
-                              <div
-                                className="button-label glamor-2"
-                                is={null}
+                              <Flex
+                                align="center"
+                                className="button-label"
                               >
-                                Hide
-                              </div>
-                            </Base>
-                          </Flex>
-                        </button>
-                      </Button>
+                                <Base
+                                  align="center"
+                                  className="button-label glamor-2"
+                                >
+                                  <div
+                                    className="button-label glamor-2"
+                                    is={null}
+                                  >
+                                    Hide
+                                  </div>
+                                </Base>
+                              </Flex>
+                            </button>
+                          </Button>
+                        </EnvironmentButton>
+                      </div>
                     </div>
                   </Base>
                 </StyledPanelItem>
@@ -664,50 +688,70 @@ exports[`ProjectEnvironments render active renders environment list 1`] = `
                 >
                   <Base
                     align="center"
-                    className="glamor-16 glamor-17"
+                    className="glamor-22 glamor-23"
                     justify="space-between"
                     p={2}
                   >
                     <div
-                      className="glamor-16 glamor-17"
+                      className="glamor-22 glamor-23"
                       is={null}
                     >
-                      <span>
-                        Staging
-                         
-                        <code>
-                          staging
-                        </code>
-                      </span>
-                      <Button
-                        disabled={false}
-                        onClick={[Function]}
-                        size="xsmall"
+                      <Flex
+                        align="center"
                       >
-                        <button
-                          className="button button-default button-xs"
-                          disabled={false}
-                          onClick={[Function]}
-                          role="button"
+                        <Base
+                          align="center"
+                          className="glamor-2"
                         >
-                          <Flex
-                            align="center"
-                            className="button-label"
+                          <div
+                            className="glamor-2"
+                            is={null}
                           >
-                            <Base
-                              align="center"
-                              className="button-label glamor-2"
+                            Staging
+                             
+                            <code>
+                              staging
+                            </code>
+                          </div>
+                        </Base>
+                      </Flex>
+                      <div>
+                        <EnvironmentButton
+                          onClick={[Function]}
+                          size="xsmall"
+                        >
+                          <Button
+                            className="glamor-18 glamor-19"
+                            disabled={false}
+                            onClick={[Function]}
+                            size="xsmall"
+                          >
+                            <button
+                              className="glamor-18 glamor-19 button button-default button-xs"
+                              disabled={false}
+                              onClick={[Function]}
+                              role="button"
                             >
-                              <div
-                                className="button-label glamor-2"
-                                is={null}
+                              <Flex
+                                align="center"
+                                className="button-label"
                               >
-                                Hide
-                              </div>
-                            </Base>
-                          </Flex>
-                        </button>
-                      </Button>
+                                <Base
+                                  align="center"
+                                  className="button-label glamor-2"
+                                >
+                                  <div
+                                    className="button-label glamor-2"
+                                    is={null}
+                                  >
+                                    Hide
+                                  </div>
+                                </Base>
+                              </Flex>
+                            </button>
+                          </Button>
+                        </EnvironmentButton>
+                      </div>
                     </div>
                   </Base>
                 </StyledPanelItem>
@@ -1052,7 +1096,7 @@ exports[`ProjectEnvironments render hidden renders environment list 1`] = `
   flex: 1;
 }
 
-.glamor-20 {
+.glamor-26 {
   background: #fff;
   border: 1px solid;
   margin-bottom: NaNpx;
@@ -1092,7 +1136,7 @@ exports[`ProjectEnvironments render hidden renders environment list 1`] = `
   padding: 15px 20px;
 }
 
-.glamor-16 {
+.glamor-22 {
   box-sizing: border-box;
   padding: 16px;
   display: -webkit-box;
@@ -1110,8 +1154,12 @@ exports[`ProjectEnvironments render hidden renders environment list 1`] = `
   border-bottom: 1px solid;
 }
 
-.glamor-16:last-child {
+.glamor-22:last-child {
   border: 0;
+}
+
+.glamor-18 {
+  margin-left: 4px;
 }
 
 <ProjectEnvironments
@@ -1275,7 +1323,7 @@ exports[`ProjectEnvironments render hidden renders environment list 1`] = `
     <Panel>
       <StyledPanel>
         <div
-          className="glamor-20 glamor-21"
+          className="glamor-26 glamor-27"
         >
           <PanelHeader>
             <StyledPanelHeader>
@@ -1324,50 +1372,70 @@ exports[`ProjectEnvironments render hidden renders environment list 1`] = `
                 >
                   <Base
                     align="center"
-                    className="glamor-16 glamor-17"
+                    className="glamor-22 glamor-23"
                     justify="space-between"
                     p={2}
                   >
                     <div
-                      className="glamor-16 glamor-17"
+                      className="glamor-22 glamor-23"
                       is={null}
                     >
-                      <span>
-                        Zzz
-                         
-                        <code>
-                          zzz
-                        </code>
-                      </span>
-                      <Button
-                        disabled={false}
-                        onClick={[Function]}
-                        size="xsmall"
+                      <Flex
+                        align="center"
                       >
-                        <button
-                          className="button button-default button-xs"
-                          disabled={false}
-                          onClick={[Function]}
-                          role="button"
+                        <Base
+                          align="center"
+                          className="glamor-2"
                         >
-                          <Flex
-                            align="center"
-                            className="button-label"
+                          <div
+                            className="glamor-2"
+                            is={null}
                           >
-                            <Base
-                              align="center"
-                              className="button-label glamor-2"
+                            Zzz
+                             
+                            <code>
+                              zzz
+                            </code>
+                          </div>
+                        </Base>
+                      </Flex>
+                      <div>
+                        <EnvironmentButton
+                          onClick={[Function]}
+                          size="xsmall"
+                        >
+                          <Button
+                            className="glamor-18 glamor-19"
+                            disabled={false}
+                            onClick={[Function]}
+                            size="xsmall"
+                          >
+                            <button
+                              className="glamor-18 glamor-19 button button-default button-xs"
+                              disabled={false}
+                              onClick={[Function]}
+                              role="button"
                             >
-                              <div
-                                className="button-label glamor-2"
-                                is={null}
+                              <Flex
+                                align="center"
+                                className="button-label"
                               >
-                                Show
-                              </div>
-                            </Base>
-                          </Flex>
-                        </button>
-                      </Button>
+                                <Base
+                                  align="center"
+                                  className="button-label glamor-2"
+                                >
+                                  <div
+                                    className="button-label glamor-2"
+                                    is={null}
+                                  >
+                                    Show
+                                  </div>
+                                </Base>
+                              </Flex>
+                            </button>
+                          </Button>
+                        </EnvironmentButton>
+                      </div>
                     </div>
                   </Base>
                 </StyledPanelItem>
