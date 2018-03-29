@@ -3,7 +3,13 @@ import Reflux from 'reflux';
 import createReactClass from 'create-react-class';
 import styled from 'react-emotion';
 import {t} from '../../locale';
-import {dismiss, closeGuide, fetchGuides, nextStep} from '../../actionCreators/guides';
+import {
+  dismiss,
+  closeGuide,
+  fetchGuides,
+  nextStep,
+  openDrawer,
+} from '../../actionCreators/guides';
 import SupportDrawer from './supportDrawer';
 import GuideDrawer from './guideDrawer';
 import GuideStore from '../../stores/guideStore';
@@ -33,24 +39,33 @@ const AssistantHelper = createReactClass({
 
   componentDidMount() {
     fetchGuides();
+
+    window.addEventListener('hashchange', this.handleHashChange, false);
+  },
+
+  componentWillUnmount() {
+    window.removeEventListener('hashchange', this.handleHashChange, false);
+  },
+
+  handleHashChange() {
+    if (window.location.hash === '#assistant') {
+      openDrawer();
+    }
   },
 
   onGuideStateChange(data) {
     let newState = {
       currentGuide: data.currentGuide,
       currentStep: data.currentStep,
+      isDrawerOpen: data.isDrawerOpen,
     };
-    if (this.state.currentGuide != data.currentGuide) {
-      newState.isDrawerOpen = false;
-    }
+
     this.setState(newState);
   },
 
   handleDrawerOpen() {
     let {currentGuide} = this.state;
-    this.setState({
-      isDrawerOpen: true,
-    });
+    openDrawer();
     nextStep();
     HookStore.get('analytics:event').forEach(cb =>
       cb('assistant.guide_opened', {

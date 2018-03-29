@@ -28,6 +28,10 @@ export function closeGuide() {
   GuideActions.closeGuide();
 }
 
+export function openDrawer() {
+  GuideActions.openDrawer();
+}
+
 export function markUseful(guideId, useful) {
   api.request('/assistant/', {
     method: 'PUT',
