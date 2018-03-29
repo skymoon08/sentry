@@ -339,7 +339,7 @@ exports[`ProjectEnvironments render active renders environment list and sets sta
   flex: 1;
 }
 
-.glamor-70 {
+.glamor-58 {
   background: #fff;
   border-radius: 4px;
   border: 1px solid #D1CAD8;
@@ -411,7 +411,7 @@ exports[`ProjectEnvironments render active renders environment list and sets sta
   margin-left: 4px;
 }
 
-.glamor-56 {
+.glamor-44 {
   display: inline;
   padding: 0.4em 0.6em;
   font-size: 75%;
@@ -588,7 +588,7 @@ exports[`ProjectEnvironments render active renders environment list and sets sta
     <Panel>
       <StyledPanel>
         <div
-          className="glamor-70 glamor-71"
+          className="glamor-58 glamor-59"
         >
           <PanelHeader>
             <StyledPanelHeader>
@@ -670,97 +670,6 @@ exports[`ProjectEnvironments render active renders environment list and sets sta
                               is={null}
                             >
                               All Environments
-                               
-                            </div>
-                          </Base>
-                        </Flex>
-                        <div>
-                          <EnvironmentButton
-                            onClick={[Function]}
-                            size="xsmall"
-                          >
-                            <Button
-                              className="glamor-18 glamor-19"
-                              disabled={false}
-                              onClick={[Function]}
-                              size="xsmall"
-                            >
-                              <button
-                                className="glamor-18 glamor-19 button button-default button-xs"
-                                disabled={false}
-                                onClick={[Function]}
-                                role="button"
-                              >
-                                <Flex
-                                  align="center"
-                                  className="button-label"
-                                >
-                                  <Base
-                                    align="center"
-                                    className="button-label glamor-2"
-                                  >
-                                    <div
-                                      className="button-label glamor-2"
-                                      is={null}
-                                    >
-                                      Set as default
-                                    </div>
-                                  </Base>
-                                </Flex>
-                              </button>
-                            </Button>
-                          </EnvironmentButton>
-                        </div>
-                      </div>
-                    </Base>
-                  </StyledPanelItem>
-                </PanelItem>
-              </EnvironmentRow>
-              <EnvironmentRow
-                environment={
-                  Object {
-                    "displayName": "No Environments",
-                    "id": "",
-                    "name": "",
-                  }
-                }
-                isDefault={false}
-                name=""
-                onSetAsDefault={[Function]}
-                shouldShowSetDefault={true}
-              >
-                <PanelItem
-                  align="center"
-                  justify="space-between"
-                  p={2}
-                >
-                  <StyledPanelItem
-                    align="center"
-                    justify="space-between"
-                    p={2}
-                  >
-                    <Base
-                      align="center"
-                      className="glamor-22 glamor-23"
-                      justify="space-between"
-                      p={2}
-                    >
-                      <div
-                        className="glamor-22 glamor-23"
-                        is={null}
-                      >
-                        <Flex
-                          align="center"
-                        >
-                          <Base
-                            align="center"
-                            className="glamor-2"
-                          >
-                            <div
-                              className="glamor-2"
-                              is={null}
-                            >
-                              No Environments
                                
                             </div>
                           </Base>
@@ -1004,7 +913,7 @@ exports[`ProjectEnvironments render active renders environment list and sets sta
                                   priority="success"
                                 >
                                   <span
-                                    className="glamor-56 glamor-57"
+                                    className="glamor-44 glamor-45"
                                   >
                                     Default
                                   </span>
