@@ -15,9 +15,7 @@ exports[`OrganizationTeamProjects Should render 1`] = `
   border-bottom: 1px solid;
   border-radius: 0 0;
   line-height: 1;
-  padding-top: 4px;
-  padding-right: 4px;
-  padding-bottom: 4px;
+  padding: 4px;
   padding-left: 10px;
 }
 
@@ -41,9 +39,7 @@ exports[`OrganizationTeamProjects Should render 1`] = `
   border-bottom: 1px solid;
   border-radius: 0 0;
   line-height: 1;
-  padding-top: 4px;
-  padding-right: 4px;
-  padding-bottom: 4px;
+  padding: 4px;
   padding-left: 10px;
 }
 
@@ -92,10 +88,7 @@ exports[`OrganizationTeamProjects Should render 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+  padding: 10px;
 }
 
 .glamor-50 {
@@ -118,10 +111,7 @@ exports[`OrganizationTeamProjects Should render 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+  padding: 10px;
 }
 
 .glamor-50:last-child {
@@ -215,11 +205,9 @@ exports[`OrganizationTeamProjects Should render 1`] = `
                         items={
                           Array [
                             Object {
-                              "label": <div
-                                className="css-hfmtrw-styles"
-                              >
+                              "label": <ProjectListElement>
                                 project-slug-2
-                              </div>,
+                              </ProjectListElement>,
                               "searchKey": "project-slug-2",
                               "value": "3",
                             },
@@ -233,11 +221,9 @@ exports[`OrganizationTeamProjects Should render 1`] = `
                           items={
                             Array [
                               Object {
-                                "label": <div
-                                  className="css-hfmtrw-styles"
-                                >
+                                "label": <ProjectListElement>
                                   project-slug-2
-                                </div>,
+                                </ProjectListElement>,
                                 "searchKey": "project-slug-2",
                                 "value": "3",
                               },

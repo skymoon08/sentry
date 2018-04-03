@@ -33,12 +33,10 @@ exports[`ProjectTeams renders 1`] = `
             items={
               Array [
                 Object {
-                  "label": <div
-                    className="css-2q47zj-styles"
-                  >
+                  "label": <TeamDropdownElement>
                     #
                     team-slug-2
-                  </div>,
+                  </TeamDropdownElement>,
                   "searchKey": "team-slug-2",
                   "value": "2",
                 },

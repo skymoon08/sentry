@@ -42,9 +42,7 @@ exports[`ProjectPluginDetails renders 1`] = `
   border-bottom: 1px solid;
   border-radius: 0 0;
   line-height: 1;
-  padding-top: 4px;
-  padding-right: 4px;
-  padding-bottom: 4px;
+  padding: 4px;
   padding-left: 10px;
 }
 
@@ -68,9 +66,7 @@ exports[`ProjectPluginDetails renders 1`] = `
   border-bottom: 1px solid;
   border-radius: 0 0;
   line-height: 1;
-  padding-top: 4px;
-  padding-right: 4px;
-  padding-bottom: 4px;
+  padding: 4px;
   padding-left: 10px;
 }
 
