@@ -81,6 +81,8 @@ def query(start, end, groupby, conditions=None, filter_keys=None,
     response = json.loads(response.text)
 
     # Validate and scrub response, and translate snuba keys back to IDs
+    # TODO come up with a better place to deal with the '.'->'_' in column names
+    groupby = [g.replace('.', '_') for g in groupby]
     expected_cols = groupby + ['aggregate']
     assert all(c['name'] in expected_cols for c in response['meta'])
     for d in response['data']:
@@ -107,7 +109,7 @@ def nest_groups(data, groups):
         g, rest = groups[0], groups[1:]
         inter = {}
         for d in data:
-            inter.setdefault(d[g], []).append(d)
+            inter.setdefault(tuple(d[g]) if isinstance(d[g], list) else d[g], []).append(d)
         return {k: nest_groups(v, rest) for k, v in six.iteritems(inter)}
 
 # The following are functions for resolving information from sentry models
