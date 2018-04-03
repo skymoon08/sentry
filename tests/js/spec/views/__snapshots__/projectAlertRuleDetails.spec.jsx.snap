@@ -16,9 +16,9 @@ exports[`ProjectAlertRuleDetails Edit alert rule renders 1`] = `
   border-radius: 0 0;
   line-height: 1;
   padding-top: 10px;
+  padding-right: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-  padding-right: 10px;
 }
 
 .glamor-1 {
@@ -42,9 +42,9 @@ exports[`ProjectAlertRuleDetails Edit alert rule renders 1`] = `
   border-radius: 0 0;
   line-height: 1;
   padding-top: 10px;
+  padding-right: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-  padding-right: 10px;
 }
 
 .glamor-34 {
@@ -989,9 +989,9 @@ exports[`ProjectAlertRuleDetails New alert rule renders 1`] = `
   border-radius: 0 0;
   line-height: 1;
   padding-top: 10px;
+  padding-right: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-  padding-right: 10px;
 }
 
 .glamor-1 {
@@ -1015,9 +1015,9 @@ exports[`ProjectAlertRuleDetails New alert rule renders 1`] = `
   border-radius: 0 0;
   line-height: 1;
   padding-top: 10px;
+  padding-right: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-  padding-right: 10px;
 }
 
 .glamor-18 {

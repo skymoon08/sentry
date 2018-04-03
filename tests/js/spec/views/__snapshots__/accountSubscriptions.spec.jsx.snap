@@ -83,9 +83,9 @@ exports[`AccountSubscriptions renders list and can toggle 1`] = `
   border-radius: 0 0;
   line-height: 1;
   padding-top: 10px;
+  padding-right: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-  padding-right: 10px;
 }
 
 .glamor-15 {
@@ -109,9 +109,9 @@ exports[`AccountSubscriptions renders list and can toggle 1`] = `
   border-radius: 0 0;
   line-height: 1;
   padding-top: 10px;
+  padding-right: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
-  padding-right: 10px;
 }
 
 .glamor-32 {
