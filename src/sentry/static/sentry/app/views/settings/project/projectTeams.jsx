@@ -27,7 +27,7 @@ import PanelHeader from '../components/panelHeader';
 import PanelBody from '../components/panelBody';
 import PanelItem from '../components/panelItem';
 import SettingsPageHeader from '../components/settingsPageHeader';
-import styles from '../../../styles/index';
+import styles from '../../../styles';
 
 const TeamRow = createReactClass({
   displayName: 'TeamRow',
