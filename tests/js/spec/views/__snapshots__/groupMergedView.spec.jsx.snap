@@ -808,6 +808,7 @@ exports[`Issues -> Merged View renders with mocked data 1`] = `
                                 className="glamor-4 glamor-5"
                               >
                                 <ProjectLink
+                                  style={null}
                                   to={
                                     Object {
                                       "pathname": "/orgId/projectId/issues/268/events/904/",
@@ -822,6 +823,7 @@ exports[`Issues -> Merged View renders with mocked data 1`] = `
                                         "search": "",
                                       }
                                     }
+                                    style={null}
                                   >
                                     <EventOrGroupTitle
                                       data={
@@ -1244,6 +1246,7 @@ exports[`Issues -> Merged View renders with mocked data 1`] = `
                                 className="glamor-4 glamor-5"
                               >
                                 <ProjectLink
+                                  style={null}
                                   to={
                                     Object {
                                       "pathname": "/orgId/projectId/issues/268/events/904/",
@@ -1258,6 +1261,7 @@ exports[`Issues -> Merged View renders with mocked data 1`] = `
                                         "search": "",
                                       }
                                     }
+                                    style={null}
                                   >
                                     <EventOrGroupTitle
                                       data={
@@ -2190,6 +2194,7 @@ exports[`Issues -> Merged View renders with mocked data 2`] = `
                                 className="glamor-4 glamor-5"
                               >
                                 <ProjectLink
+                                  style={null}
                                   to={
                                     Object {
                                       "pathname": "/orgId/projectId/issues/268/events/904/",
@@ -2204,6 +2209,7 @@ exports[`Issues -> Merged View renders with mocked data 2`] = `
                                         "search": "",
                                       }
                                     }
+                                    style={null}
                                   >
                                     <EventOrGroupTitle
                                       data={
@@ -2626,6 +2632,7 @@ exports[`Issues -> Merged View renders with mocked data 2`] = `
                                 className="glamor-4 glamor-5"
                               >
                                 <ProjectLink
+                                  style={null}
                                   to={
                                     Object {
                                       "pathname": "/orgId/projectId/issues/268/events/904/",
@@ -2640,6 +2647,7 @@ exports[`Issues -> Merged View renders with mocked data 2`] = `
                                         "search": "",
                                       }
                                     }
+                                    style={null}
                                   >
                                     <EventOrGroupTitle
                                       data={
